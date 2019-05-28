@@ -1,0 +1,12 @@
+
+## SBFspot
+*/5 6-22 * * * /usr/local/bin/sbfspot.3/daydata
+55 05 * * * /usr/local/bin/sbfspot.3/monthdata
+
+## Tarefas posteriores
+#*/5 0-23 * * * /usr/bin/python3.5 /home/pi/scripts/tarefas.py
+#*/1 0-23 * * * /usr/bin/python3.5 /home/pi/scripts/tarefas_1min.py
+*/15 6-23 * * * /usr/bin/python3.5 /home/pi/scripts/tarefas_15min.py
+
+
+
